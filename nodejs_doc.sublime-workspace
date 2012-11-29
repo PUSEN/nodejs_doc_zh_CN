@@ -1,0 +1,770 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"met",
+				"metas"
+			],
+			[
+				"ma",
+				"major-header"
+			],
+			[
+				"list",
+				"listRows"
+			],
+			[
+				"new",
+				"new_radio_id"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"la",
+				"last-child"
+			],
+			[
+				"attr",
+				"removeAttr"
+			],
+			[
+				"course",
+				"course-subject"
+			],
+			[
+				"remove",
+				"removeOption"
+			],
+			[
+				"ass",
+				"assign"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"ke",
+				"kecheng"
+			],
+			[
+				"su",
+				"subjectId"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"stu",
+				"students"
+			],
+			[
+				"sem",
+				"semesterMap"
+			],
+			[
+				"ch",
+				"change  (function)"
+			],
+			[
+				"cour",
+				"courseGroup"
+			],
+			[
+				"v",
+				"volist"
+			],
+			[
+				"teac",
+				"teachers"
+			],
+			[
+				"option",
+				"optionTable"
+			],
+			[
+				"is",
+				"is_int"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"sto",
+				"stopPropagation"
+			],
+			[
+				"mou",
+				"mousemove  (function)"
+			],
+			[
+				"p",
+				"parent  (function)"
+			],
+			[
+				"cours",
+				"courseList  (variable)"
+			],
+			[
+				"m",
+				"mName  (variable)"
+			],
+			[
+				"remov",
+				"removeClass"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"opt",
+				"option"
+			],
+			[
+				"subje",
+				"subjectId"
+			],
+			[
+				"courseGr",
+				"courseGroupId"
+			],
+			[
+				"text-d",
+				"text-decoration:   (property)"
+			],
+			[
+				"mod",
+				"module_chooser"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"_S",
+				"_SESSION  (variable)"
+			],
+			[
+				"sub",
+				"subjects"
+			],
+			[
+				"set",
+				"setField  (function)"
+			],
+			[
+				"che",
+				"checked  (function)"
+			],
+			[
+				"bord",
+				"border-right"
+			],
+			[
+				"l",
+				"location  (variable)"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"stud",
+				"student"
+			],
+			[
+				"ck",
+				"check-group"
+			],
+			[
+				"marg",
+				"margin-top	zen:css_properties"
+			],
+			[
+				"succ",
+				"successMessage"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"JKban",
+				"JKban_xuesheng"
+			],
+			[
+				"erro",
+				"errorMessage"
+			],
+			[
+				"se",
+				"self_remarks"
+			],
+			[
+				"remar",
+				"remarks"
+			],
+			[
+				"class",
+				"class_filter"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"isset",
+				"isset()"
+			],
+			[
+				"th",
+				"thead"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"is_",
+				"is_array"
+			],
+			[
+				"op",
+				"option"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"ti",
+				"Tidy PHP"
+			],
+			[
+				"t",
+				"Tidy PHP"
+			],
+			[
+				"tid",
+				"Tidy PHP"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Discover Packages"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"程序包控制: 安装文件包"
+			],
+			[
+				"程序包控制: 安装",
+				"程序包控制: 安装文件包"
+			],
+			[
+				"程序包控制: ",
+				"程序包控制: 升级/覆盖所有文件包"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/index.html",
+		"/E/wamp/www/test/time.php",
+		"/E/Documents/GitHub/nodejs_doc_zh_CN/public/bootstrap.min.css",
+		"/C/Users/Administrator/Desktop/jquery.js",
+		"/D/Music/EMI.-.[经典珍藏圆舞曲集].专辑.(cue).cue",
+		"/D/Music/Borodin.-.[Symphonies.No.1-3(Stephen.Gunzenhauser)].专辑.(ape).cue",
+		"/E/Coding/Sublime Text 2.0.1 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/E/Downloads/EMI.-.[经典珍藏圆舞曲集].专辑.(cue).cue",
+		"/D/Music/11.cue",
+		"/D/Music/Mariss.Jansons.-.[2006年维也纳新年音乐会.CD2].专辑.(ape).cue",
+		"/D/Music/Mariss.Jansons.-.[2006年维也纳新年音乐会.CD1].专辑.(ape).cue",
+		"/D/Music/Seiji.Ozawa.-.[New.Year&#39;s.Day.Concert.2002].专辑.(ape).cue",
+		"/D/Music/Strauss - Waltzes, Polkas & Marches  - CD5 - Wiener Philharmoniker - Willy Boskovsky.cue",
+		"/D/Music/Strauss - Waltzes, Polkas & Marches  - CD2 - Wiener Philharmoniker - Willy Boskovsky.cue",
+		"/D/Music/Strauss - Waltzes, Polkas & Marches  - CD4 - Wiener Philharmoniker - Willy Boskovsky.cue",
+		"/D/Music/Strauss - Waltzes, Polkas & Marches  - CD1 - Wiener Philharmoniker - Willy Boskovsky.cue",
+		"/D/Music/Strauss - Waltzes, Polkas & Marches  - CD6 - Wiener Philharmoniker - Willy Boskovsky.cue",
+		"/D/Music/Strauss - Waltzes, Polkas & Marches  - CD3 - Wiener Philharmoniker - Willy Boskovsky.cue",
+		"/D/Music/Strauss, Johann - Strauss Gala  An der schonen blauen Donau  - CD2- Wiener Philharmoniker - Willy Boskovsky.cue",
+		"/D/Music/Strauss, Johann - Strauss Gala  An der schonen blauen Donau  - CD3- Wiener Philharmoniker - Willy Boskovsky.cue",
+		"/Y/音乐/APE/CDImage.cue",
+		"/D/Music/Shanghai Ballet Orchestra - Lin Yousheng _ Red Detachment of Women.cue",
+		"/D/Music/Bruno.Walter.-.[Brahms.Symphony.No.1.Haydn.Variations.&.Academic.Festical.Overture.SONY].专辑.(APE).cue",
+		"/D/Music/Dutoit.Montreal.-.%5BBizet.L%26%2339%3BArlesienne.%26amp%3B.Carmen.Suites%5D.专辑.%28APE%29.cue",
+		"/E/wamp/www/zphelper/App/Tpl/Index/index.html",
+		"/E/wamp/www/zphelper/App/Conf/debug.php",
+		"/E/wamp/www/zphelper/App/Conf/config.php",
+		"/E/wamp/www/zphelper/App/Common/common.php",
+		"/E/wamp/www/zphelper/index.php",
+		"/E/Coding/Sublime Text 2.0.1 x64/Data/Packages/FTPSync/ftpsync.sublime-settings",
+		"/E/Coding/Sublime Text 2.0.1 x64/Data/Packages/User/FTPSync.sublime-settings",
+		"/E/Coding/Sublime Text 2.0.1 x64/Data/Packages/PhpTidy/PhpTidy.sublime-settings",
+		"/E/wamp/www/zphelper/App/Lib/Action/PingjiaAction.class.php",
+		"/E/Coding/Sublime Text 2.0.1 x64/Data/Packages/User/PhpTidy.sublime-settings",
+		"/E/wamp/www/zphelper/App/Tpl/Pingjia/distribute.html",
+		"/E/wamp/www/zphelper/App/Tpl/Install/install.html",
+		"/E/wamp/www/zphelper/App/Tpl/Public/header.html",
+		"/C/Users/Administrator/Desktop/wallproxy-wallproxy-b0ba7b2/local/proxy.ini",
+		"/C/Users/Administrator/Desktop/wallproxy-wallproxy-b0ba7b2/README.md",
+		"/C/Users/Administrator/Desktop/wallproxy-wallproxy-b0ba7b2/server/python/app.yaml",
+		"/C/Users/Administrator/Desktop/web/index.html",
+		"/C/Users/Administrator/Desktop/Total.Recall.2012.DVDRip.XviD-Lum1x.srt",
+		"/C/Users/Administrator/Desktop/scaleText.html",
+		"/C/Users/Administrator/Desktop/scaleText",
+		"/E/wamp/www/zphelper/App/Lib/Model/SuzhiModel.class.php",
+		"/E/wamp/www/zphelper/App/Tpl/Pingjia/level.html",
+		"/E/wamp/www/zphelper/App/Lib/Model/XueshengModel.class.php",
+		"/E/wamp/www/zphelper/App/Lib/Action/XiuxiAction.class.php",
+		"/E/wamp/www/zphelper/App/Tpl/Shefu/student.html",
+		"/E/wamp/www/zphelper/App/Tpl/Yanxue/student.html",
+		"/E/wamp/www/zphelper/App/Tpl/Pingjia/student.html",
+		"/E/wamp/www/zphelper/App/Tpl/Sheshi/student.html",
+		"/E/wamp/www/zphelper/Public/Js/site_s.js",
+		"/E/wamp/www/zphelper/Public/Css/site.css",
+		"/E/wamp/www/zphelper/App/Tpl/Xiuxi/student.html",
+		"/F/SkyDrive/天津市中学素质评价助手/zphelperKey_0001.exe",
+		"/E/wamp/www/zphelper/ThinkPHP/Conf/convention.php",
+		"/E/wamp/www/zphelper/Runtime/Cache/fa91399161d2650ba7e2e0b55b1a0afa.php",
+		"/E/wamp/www/zphelper/App/Lib/Action/SheshiAction.class.php",
+		"/E/wamp/www/zphelper/App/Lib/Action/ShefuAction.class.php",
+		"/E/wamp/www/zphelper/App/Lib/Action/YanxueAction.class.php",
+		"/E/wamp/www/zphelper/ThinkPHP/Extend/Library/ORG/Util/Page.class.php",
+		"/E/wamp/www/zphelper/Runtime/Cache/b8cb8f1d5d542d09eca8e8b9eb865f3a.php",
+		"/E/wamp/www/lan/jyzx.php",
+		"/E/wamp/www/modoer/core/model/config_class.php",
+		"/E/wamp/www/lan/main.php",
+		"/E/wamp/www/lan/sql.php",
+		"/E/wamp/www/lan/rssjyzx.php",
+		"/E/wamp/www/test/jyzx.php",
+		"/E/wamp/www/test/rssparser.php",
+		"/E/wamp/www/test/test.php",
+		"/E/wamp/www/test/index.php",
+		"/E/wamp/www/test/rssjyzx.php",
+		"/E/wamp/www/lan/index.htm",
+		"/E/wamp/www/zphelper/Public/Js/site_j.js",
+		"/E/wamp/www/zphelper_cz/App/Lib/Model/XueshengModel.class.php",
+		"/E/wamp/www/zphelper_cz/App/Lib/Action/PingjiaAction.class.php",
+		"/E/wamp/www/zphelper/Public/Js/site.min.js",
+		"/E/wamp/www/zphelper/App/Tpl/Pingjia/intro.html",
+		"/E/wamp/www/zphelper/App/Tpl/Pingjia/conclusion.html",
+		"/E/wamp/www/zphelper_cz/App/Tpl/Pingjia/distribute.html",
+		"/E/wamp/www/zphelper_cz/App/Tpl/Pingjia/level.html",
+		"/E/wamp/www/zphelper_cz/App/Tpl/Pingjia/intro.html",
+		"/E/wamp/www/zphelper_cz/App/Tpl/Pingjia/student.html",
+		"/E/wamp/www/zphelper_cz/App/Lib/Action/IndexAction.class.php",
+		"/E/wamp/www/zphelper/App/Lib/Action/IndexAction.class.php",
+		"/E/wamp/www/zphelper_cz/App/Tpl/Index/index.html",
+		"/E/wamp/www/zphelper/App/Tpl/Public/footer.html",
+		"/E/wamp/www/test/test.html",
+		"/E/wamp/www/zphelper_cz/Public/Js/site.js",
+		"/E/wamp/www/zphelper_cz/App/Tpl/Index/about.html",
+		"/E/wamp/www/zphelper_cz/App/Tpl/Public/header.html",
+		"/E/wamp/www/zphelper/App/Tpl/Index/about.html",
+		"/E/wamp/www/zphelper/Public/Js/site.js",
+		"/E/wamp/www/zphelper/Public/Js/bootstrap-responsive.css",
+		"/E/wamp/www/zphelper/Public/Js/test/grunt.js",
+		"/E/wamp/www/zphelper/Public/Js/grunt.js",
+		"/E/wamp/www/zphelper/Public/Js/school/0001.js",
+		"/E/wamp/www/zphelper/Public/Js/bak/grunt.js",
+		"/E/wamp/www/zphelper/Public/Js/bak/bootstrap.js",
+		"/E/wamp/www/zphelper/Public/Js/school/0001.min.js",
+		"/E/wamp/www/zphelper/Public/Js/bootstrap.min.css",
+		"/E/wamp/www/zphelper/Public/Css/bootstrap-responsive.css",
+		"/E/wamp/www/zphelper/App/Lib/Action/AjaxAction.class.php",
+		"/E/wamp/www/zphelper/App/Tpl/Shefu/intro.html",
+		"/E/wamp/www/zphelper/App/Tpl/Sheshi/intro.html",
+		"/E/wamp/www/zphelper/App/Tpl/Xiuxi/intro.html",
+		"/E/wamp/www/zphelper/App/Tpl/Yanxue/intro.html",
+		"/E/wamp/www/zphelper/Runtime/Cache/16e8bbc77b8778d6daa7b2ed83570e8e.php",
+		"/E/wamp/www/zphelper/Runtime/Cache/431f8023c584979e50aa7d0e363ef74e.php",
+		"/E/wamp/www/zphelper/Runtime/Cache/abf05854382d379a4b4524bcc6727599.php",
+		"/E/wamp/www/zphelper/Runtime/Cache/df9c592550b10e0b61c537bd488bc3f3.php",
+		"/E/wamp/www/zphelper/Runtime/Cache/fe97c865063cb62ab4e2d3f2a6d30e49.php",
+		"/E/wamp/www/sns/install/install.php",
+		"/E/wamp/www/zphelper/App/Tpl/Xiuxi/teacher.html",
+		"/E/wamp/www/zphelper/App/Lib/Action/InstallAction.class.php",
+		"/E/wamp/www/zphelper/App/Tpl/Xiuxi/course.html",
+		"/E/wamp/www/zphelper/App/Tpl/Xiuxi/distribute.html",
+		"/E/wamp/www/zphelper/App/Lib/Model/ShijianModel.class.php",
+		"/E/wamp/www/zphelper/App/Lib/Model/BanjiModel.class.php",
+		"/E/wamp/www/zphelper/App/Lib/Model/KechengModel.class.php",
+		"/E/Downloads/课程组备份(1).json",
+		"/E/wamp/www/zphelper/Public/Css/bootstrap.css",
+		"/E/wamp/www/zphelper/App/Tpl/Xiuxi/modifyGroup.html",
+		"/E/wamp/www/zphelper/Public/Js/school/0210.js",
+		"/E/wamp/www/zphelper/Public/Js/school/0204.js",
+		"/E/wamp/www/ThinkPHP/Examples/file/App/Lib/Action/IndexAction.class.php",
+		"/E/wamp/www/zphelper/App/Tpl/Xiuxi/courseImport.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"Y:\\音乐\\APE",
+			"E:\\wamp\\www\\zphelper,-*.js",
+			"E:\\wamp\\www\\zphelper",
+			"E:\\wamp\\www\\cms",
+			"E:\\wamp\\www\\zphelper",
+			"C:\\Users\\Administrator\\Desktop\\sqlsrv",
+			"E:\\wamp\\www\\zphelper\\app",
+			"E:\\wamp\\www\\zphelper\\",
+			"E:\\wamp\\www\\zphelper\\thinkphp",
+			"E:\\wamp\\www\\zphelper\\App\\Tpl",
+			"D:\\Program Files\\Sublime Text 2.0.1"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"gly",
+			"波尔卡",
+			"mmm",
+			"M('Bili')",
+			"LOG_RECORD",
+			"getElements",
+			"sep",
+			"  ",
+			": ",
+			" {",
+			"DOMDocument",
+			"getElementsByTagName",
+			"css",
+			")[",
+			"root",
+			"schoolkey",
+			"visible-desktop",
+			"getStudentList",
+			"后面直接进",
+			"后面",
+			"sub",
+			"sub-header",
+			"new Page",
+			"<<<",
+			"App/Conf/config.php",
+			"new Page($count,50)",
+			"50",
+			"C(",
+			"$page",
+			" <if condition=\"$i eq 1\">width=\"30\"</if>",
+			" width=\"30\"",
+			"fixed-table-header",
+			" ",
+			"地.+－",
+			"天.+－",
+			"天魁星 呼保义－",
+			"LOG",
+			"SQL_DEBUG_LOG",
+			"loadOption('stopHelp",
+			"loadOption",
+			"data['",
+			"saveOption('course_'",
+			"alertMessage",
+			"loadOption('stopHelp",
+			"p ",
+			"12",
+			"28",
+			"$i eq 0",
+			"48",
+			"<td>",
+			"28",
+			"25",
+			".header",
+			"getModuleList",
+			"getModulesBySubjectName",
+			"getModuleList",
+			"type",
+			"select(",
+			"update",
+			"buildSelectSql",
+			"off",
+			"auto-",
+			"saveOption",
+			"remove(",
+			"msubstr",
+			"remove(",
+			"remove",
+			"clearmenu",
+			"form",
+			"dropdown form",
+			"dropdown-menu",
+			"inline-select",
+			"dropdown",
+			"icon-share",
+			"teacher_type",
+			"addCheckedItem",
+			"show",
+			"parseValue",
+			"escapeString",
+			"stop",
+			"loadOption",
+			"$cg",
+			"__PUBLIC__",
+			"020",
+			"x31",
+			"x30",
+			"current_radio",
+			"current_radion",
+			">1<",
+			"<<<",
+			"style=\"width:140px;\">1</textarea>",
+			"$js",
+			"'/zphelper/",
+			"\"/zphelper/",
+			"/students",
+			"public function students()",
+			"teacherList",
+			"$count",
+			"junOrSen",
+			"sql",
+			"sqlsrv_connect(",
+			"connect(",
+			"onSocketConnect",
+			"2",
+			"5",
+			"session\\('([\\w]+)', \\$[\\w]+\\);",
+			"session\\('[\\w]+', $[\\w]+\\);",
+			"session('[\\w]+', $[\\w]+);",
+			"session('[\\w]+', \\$[\\w]+);",
+			"ssCount",
+			"社会实践",
+			"Sheshi",
+			"ssCount",
+			"yxCount",
+			"session(",
+			"shijian_type",
+			"update",
+			"$options['limit']",
+			"CURSOR_KEYSET",
+			"\"Scrollable\"",
+			"$options['order']",
+			"save",
+			"parseLimit",
+			"1=1",
+			"save",
+			"1=1",
+			"parseValue",
+			"_auto"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			":",
+			"{",
+			"以后直接进入",
+			"new Page($count)",
+			"",
+			"30",
+			"$i eq 1",
+			"30",
+			"<td <if condition=\"$i eq 0\">width=\"48\"</if>>",
+			"27",
+			"28",
+			"><",
+			"style=\"width:140px;\"></textarea>",
+			"baseurl + '",
+			"baseurl + \"",
+			"/student",
+			"public function student()",
+			"3",
+			"7",
+			"$this->assign(\"$1\",session('$1');",
+			"sfCount",
+			"社区服务",
+			"Shefu",
+			"sfCount",
+			"ssCount",
+			"nav nav-list"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true
+}
