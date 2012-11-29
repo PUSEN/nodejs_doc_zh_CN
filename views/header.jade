@@ -1,0 +1,51 @@
+!!!5
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/bootstrap.min.css')
+    link(rel='stylesheet', href='/docs.css')
+    script(src='/jquery.min.js')
+    script(src='/bootstrap.min.js')
+  body
+    div.navbar.navbar-inverse.navbar-fixed-top
+      div.navbar-inner
+        div.container
+          a.brand(href='/index') NodeJS 中文文档
+          div.nav-collapse.collapse
+            ul.nav
+              li
+                a(href='/nodejs') nodejs
+              li.dropdown
+                a.dropdown-toggle(href='javascript:;', data-toggle='dropdown') MVC 
+                  b.caret                
+                ul.dropdown-menu
+                  li
+                    a(href='/express') express
+              li.dropdown
+                a.dropdown-toggle(href='javascript:;', data-toggle='dropdown') 数据库 
+                  b.caret               
+                ul.dropdown-menu
+                  li
+                    a(href='/mongodb') mongodb
+                  li
+                    a(href='/mongoose') mongoose
+                  li
+                    a(href='/mysql') mysql
+              li.dropdown
+                a.dropdown-toggle(href='javascript:;', data-toggle='dropdown') 模板 
+                  b.caret               
+                ul.dropdown-menu
+                  li
+                    a(href='/jade') jade
+              li.dropdown
+                a.dropdown-toggle(href='javascript:;', data-toggle='dropdown') 测试 
+                  b.caret               
+                ul.dropdown-menu
+                  li
+                    a(href='/mocha') mocha
+              li.dropdown
+                a.dropdown-toggle(href='javascript:;', data-toggle='dropdown') IO 
+                  b.caret               
+                ul.dropdown-menu
+                  li
+                    a(href='/ndir') ndir

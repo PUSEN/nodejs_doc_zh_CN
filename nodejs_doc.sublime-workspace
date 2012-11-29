@@ -287,11 +287,75 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 745,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 20,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/express.jade",
+			"settings":
+			{
+				"buffer_size": 36,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/express_menu.jade",
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/slobber/.config/sublime-text-2/Packages/sublime-github/README.md",
+			"settings":
+			{
+				"buffer_size": 6388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/slobber/.config/sublime-text-2/Packages/sublime-github/sublime_github.py",
+			"settings":
+			{
+				"buffer_size": 15477,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/header.jade",
+			"settings":
+			{
+				"buffer_size": 1836,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2460,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 357.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -300,6 +364,10 @@
 			],
 			[
 				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
 				"Package Control: Install Package"
 			],
 			[
@@ -325,10 +393,6 @@
 			[
 				"tid",
 				"Tidy PHP"
-			],
-			[
-				"Package Control: in",
-				"Package Control: Install Package"
 			],
 			[
 				"for",
@@ -359,7 +423,7 @@
 				"程序包控制: 升级/覆盖所有文件包"
 			]
 		],
-		"width": 514.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -376,6 +440,12 @@
 	},
 	"file_history":
 	[
+		"/home/slobber/.config/sublime-text-2/Packages/sublime-github/sublime_requests.py",
+		"/home/slobber/.config/sublime-text-2/Packages/User/GitHub.sublime-settings",
+		"/home/slobber/.config/sublime-text-2/Packages/sublime-github/GitHub.sublime-settings",
+		"/home/slobber/文档/nodejs/nodejs_doc_zh_CN/views/mongodb.jade",
+		"/home/slobber/文档/nodejs/nodejs_doc_zh_CN/nodejs_doc.sublime-project",
+		"/home/slobber/文档/nodejs/nodejs_doc_zh_CN/nodejs_doc.sublime-workspace",
 		"/C/Users/Administrator/Desktop/index.html",
 		"/E/wamp/www/test/time.php",
 		"/E/Documents/GitHub/nodejs_doc_zh_CN/public/bootstrap.min.css",
@@ -497,13 +567,7 @@
 		"/E/wamp/www/zphelper/App/Lib/Model/ShijianModel.class.php",
 		"/E/wamp/www/zphelper/App/Lib/Model/BanjiModel.class.php",
 		"/E/wamp/www/zphelper/App/Lib/Model/KechengModel.class.php",
-		"/E/Downloads/课程组备份(1).json",
-		"/E/wamp/www/zphelper/Public/Css/bootstrap.css",
-		"/E/wamp/www/zphelper/App/Tpl/Xiuxi/modifyGroup.html",
-		"/E/wamp/www/zphelper/Public/Js/school/0210.js",
-		"/E/wamp/www/zphelper/Public/Js/school/0204.js",
-		"/E/wamp/www/ThinkPHP/Examples/file/App/Lib/Action/IndexAction.class.php",
-		"/E/wamp/www/zphelper/App/Tpl/Xiuxi/courseImport.html"
+		"/E/Downloads/课程组备份(1).json"
 	],
 	"find":
 	{
@@ -532,6 +596,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"GitTextCommand",
+			"</a></li>",
+			"<li>",
+			"<a href=\"(.+)/(.+)\\.html\">",
+			"<ul class=\"dropdown-menu\">",
+			"<b class=\"caret\"></b></a>",
+			"<a href=\"javascript:;\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">",
+			"<li class=\"dropdown\">",
 			"gly",
 			"波尔卡",
 			"mmm",
@@ -651,22 +723,22 @@
 			"update",
 			"$options['limit']",
 			"CURSOR_KEYSET",
-			"\"Scrollable\"",
-			"$options['order']",
-			"save",
-			"parseLimit",
-			"1=1",
-			"save",
-			"1=1",
-			"parseValue",
-			"_auto"
+			"\"Scrollable\""
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"",
+			"li",
+			"a(href='/\\1') ",
+			"a(href='\\1') ",
+			"ul.dropdown-menu",
+			"b.caret",
+			"a.dropdown-toggle(href='javascript:;', data-toggle='dropdown') ",
+			"li.dropdown",
 			"",
 			":",
 			"{",
@@ -704,8 +776,230 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/index.jade",
+					"settings":
+					{
+						"buffer_size": 20,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/express.jade",
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/express_menu.jade",
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/slobber/.config/sublime-text-2/Packages/sublime-github/README.md",
+					"settings":
+					{
+						"buffer_size": 6388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1608,
+								1608
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/slobber/.config/sublime-text-2/Packages/sublime-github/sublime_github.py",
+					"settings":
+					{
+						"buffer_size": 15477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13966,
+								13966
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7233.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/header.jade",
+					"settings":
+					{
+						"buffer_size": 1836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2442,
+								2442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -762,7 +1056,7 @@
 		"width": 380.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 214.0,
