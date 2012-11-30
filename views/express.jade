@@ -13,28 +13,30 @@ div.container
 
         h2 app
 
-        p Application prototype.
+        p Application 原型.
 
         h2 app.use()
 
-        p Proxy 
+        p 代理
           code connect#use() 
-          | to apply settings to mounted applications.
+          |  对加载的应用程序进行设置。
 
         h2 app.engine()
 
-        p Register the given template engine callback fn as ext. For example if you wanted to map the EJS template engine to ".html" files, rather than ".ejs" files, you could do the following.
+        p 对给定模板引擎注册回调函数。例如EJS 模板引擎默认只处理“.ejs”文件，如果你还希望它能够处理“.html”文件，你可以利用以下代码进行设置。
 
         pre
           code app.engine('html', require('ejs').renderFile);
 
-        p In this case EJS provides a 
+        p 在这个例子中，EJS 提供了一个 Express 所需要的方法
           code .renderFile() 
-          | method with the same signature that Express expects: 
+          | ，具有 
           code (path, options, callback)
-          | .
+          |  三个参数。
 
-        p Some template engines do not follow this convention, the Consolidate.js library was created to map all of node's popular template engines to follow this convention, thus allowing them to work seemlessly within Express.
+        p 有些模板引擎并没有遵守这个约定，
+          a(href="/consolidate") Consolidate.js 
+          |  库可以解决这类问题，它对 node 主流的模板引擎进行映射，以便使它们可以和 Express 无缝的协同工作。
 
         h2 app.param()
 
