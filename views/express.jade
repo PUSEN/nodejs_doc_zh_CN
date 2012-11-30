@@ -7,4 +7,193 @@ div.container
   div.row
     include express_menu
     div.span10
-      p aa
+      section#application
+        .page-header
+          h1 application
+
+        h2 app
+
+        p Application prototype.
+
+        h2 app.use()
+
+        p Proxy 
+          code connect#use() 
+          | to apply settings to mounted applications.
+
+        h2 app.engine()
+
+        p Register the given template engine callback fn as ext. For example if you wanted to map the EJS template engine to ".html" files, rather than ".ejs" files, you could do the following.
+
+        code app.engine('html', require('ejs').renderFile);
+
+        p In this case EJS provides a 
+          code .renderFile() 
+          | method with the same signature that Express expects: 
+          code (path, options, callback)
+          | .
+
+        p Some template engines do not follow this convention, the Consolidate.js library was created to map all of node's popular template engines to follow this convention, thus allowing them to work seemlessly within Express.
+
+        h2 app.param()
+
+        p Map the given param placeholder 
+          code name
+          | (s) to the given callback(s).
+
+        p Parameter mapping is used to provide pre-conditions to routes which use normalized placeholders. For example a 
+          em :user_id
+          | parameter could automatically load a user's information from the database without any additional code,
+
+        p The callback uses the samesignature as middleware, the only differencing being that the value of the placeholder is passed, in this case the id of the user. Once the 
+          code next()
+          | function is invoked, just like middleware it will continue on to execute the route, or subsequent parameter functions.
+
+        code 
+          | app.param('user_id', function(req, res, next, id){
+          |   User.find(id, function(err, user){
+          |     if (err) {
+          |       next(err);
+          |     } else if (user) {
+          |       req.user = user;
+          |       next();
+          |     } else {
+          |       next(new Error('failed to load user'));
+          |     }
+          |   });
+          | });
+
+        h2 app.set()
+
+        p Assign 
+          code setting 
+          | to 
+          code val
+          | , or return 
+          code setting
+          | 's value.
+
+        code 
+          | app.set('foo', 'bar');
+          | app.get('foo');
+          | // => "bar"
+
+        p Mounted servers inherit their parent server's settings.
+        
+        h2 app.enabled()
+
+        p Check if 
+          code setting
+          | is enabled (truthy).
+
+        code 
+          | app.enabled('foo')
+          | // => false
+          |
+          | app.enable('foo')
+          | app.enabled('foo')
+          | // => true
+
+        h2 app.disabled()
+
+        p Check if setting is disabled.
+
+        code
+          | app.disabled('foo')
+          | // => true
+          |
+          | app.enable('foo')
+          | app.disabled('foo')
+          | // => false
+
+        h2 app.enable()
+
+        p Enable 
+          code setting
+          | .
+
+        h2 app.disable()
+
+        p Disable 
+          code setting
+          | .
+        
+        h2 app.configure()
+
+        p Configure callback for zero or more 
+          code envs
+          | , when no env is specified that callback will be invoked for all environments. Any combination can be used multiple times, in any order desired.
+
+        p ## Examples
+
+        code
+          | app.configure(function(){
+          |   // executed for all envs
+          | });
+
+          | app.configure('stage', function(){
+          |   // executed staging env
+          | });
+
+          | app.configure('stage', 'production', function(){
+          |   // executed for stage and production
+          | });
+
+        p ## Note
+
+        p These callbacks are invoked immediately, and are effectively sugar for the following.
+
+        code
+          | var env = process.env.NODE_ENV || 'development';
+          |
+          | switch (env) {
+          |   case 'development':
+          |     ...
+          |     break;
+          |   case 'stage':
+          |     ...
+          |     break;
+          |   case 'production':
+          |     ...
+          |     break;
+          | }
+
+        h2 app.all()
+
+        p Special-cased "all" method, applying the given route 
+          code path
+          | , middleware, and callback to every HTTP method.
+
+        h2 app.render()
+
+        p Render the given view 
+          code name 
+          | name with 
+          code options
+          | and a callback accepting an error and the rendered template string.
+
+        p ## Example
+
+        code
+        | app.render('email', { name: 'Tobi' }, function(err, html){
+        |   // ...
+        | })
+
+        h2 app.listen()
+
+        p Listen for connections.
+
+        p A node 
+          code http.Server
+          | is returned, with this application (which is a
+          code Function
+          | ) as its callback. If you wish to create both an HTTP and HTTPS server you may do so with the "http" and "https" modules as shown here.
+
+        code
+          | var http = require('http')
+          |   , https = require('https')
+          |   , express = require('express')
+          |   , app = express();
+          |
+          | http.createServer(app).listen(80);
+          | http.createServer({ ... }, app).listen(443);
