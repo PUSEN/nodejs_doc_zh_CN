@@ -25,7 +25,8 @@ div.container
 
         p Register the given template engine callback fn as ext. For example if you wanted to map the EJS template engine to ".html" files, rather than ".ejs" files, you could do the following.
 
-        code app.engine('html', require('ejs').renderFile);
+        pre
+          code app.engine('html', require('ejs').renderFile);
 
         p In this case EJS provides a 
           code .renderFile() 
@@ -49,19 +50,19 @@ div.container
           code next()
           | function is invoked, just like middleware it will continue on to execute the route, or subsequent parameter functions.
 
-        code 
-          | app.param('user_id', function(req, res, next, id){
-          |   User.find(id, function(err, user){
-          |     if (err) {
-          |       next(err);
-          |     } else if (user) {
-          |       req.user = user;
-          |       next();
-          |     } else {
-          |       next(new Error('failed to load user'));
-          |     }
-          |   });
-          | });
+        pre
+          code app.param('user_id', function(req, res, next, id){
+            |   User.find(id, function(err, user){
+            |     if (err) {
+            |       next(err);
+            |     } else if (user) {
+            |       req.user = user;
+            |       next();
+            |     } else {
+            |       next(new Error('failed to load user'));
+            |     }
+            |   });
+            | });
 
         h2 app.set()
 
@@ -73,10 +74,11 @@ div.container
           code setting
           | 's value.
 
-        code 
-          | app.set('foo', 'bar');
-          | app.get('foo');
-          | // => "bar"
+        pre
+          code 
+            | app.set('foo', 'bar');
+            | app.get('foo');
+            | // => "bar"
 
         p Mounted servers inherit their parent server's settings.
         
@@ -86,25 +88,25 @@ div.container
           code setting
           | is enabled (truthy).
 
-        code 
-          | app.enabled('foo')
-          | // => false
-          |
-          | app.enable('foo')
-          | app.enabled('foo')
-          | // => true
+        pre
+          code app.enabled('foo')
+            | // => false
+            |
+            | app.enable('foo')
+            | app.enabled('foo')
+            | // => true
 
         h2 app.disabled()
 
         p Check if setting is disabled.
 
-        code
-          | app.disabled('foo')
-          | // => true
-          |
-          | app.enable('foo')
-          | app.disabled('foo')
-          | // => false
+        pre
+          code app.disabled('foo')
+            | // => true
+            |
+            | app.enable('foo')
+            | app.disabled('foo')
+            | // => false
 
         h2 app.enable()
 
@@ -126,37 +128,37 @@ div.container
 
         p ## Examples
 
-        code
-          | app.configure(function(){
-          |   // executed for all envs
-          | });
+        pre
+          code app.configure(function(){
+            |   // executed for all envs
+            | });
 
-          | app.configure('stage', function(){
-          |   // executed staging env
-          | });
+            | app.configure('stage', function(){
+            |   // executed staging env
+            | });
 
-          | app.configure('stage', 'production', function(){
-          |   // executed for stage and production
-          | });
+            | app.configure('stage', 'production', function(){
+            |   // executed for stage and production
+            | });
 
         p ## Note
 
         p These callbacks are invoked immediately, and are effectively sugar for the following.
 
-        code
-          | var env = process.env.NODE_ENV || 'development';
-          |
-          | switch (env) {
-          |   case 'development':
-          |     ...
-          |     break;
-          |   case 'stage':
-          |     ...
-          |     break;
-          |   case 'production':
-          |     ...
-          |     break;
-          | }
+        pre
+          code var env = process.env.NODE_ENV || 'development';
+            |
+            | switch (env) {
+            |   case 'development':
+            |     ...
+            |     break;
+            |   case 'stage':
+            |     ...
+            |     break;
+            |   case 'production':
+            |     ...
+            |     break;
+            | }
 
         h2 app.all()
 
@@ -174,10 +176,10 @@ div.container
 
         p ## Example
 
-        code
-        | app.render('email', { name: 'Tobi' }, function(err, html){
-        |   // ...
-        | })
+        pre
+          code app.render('email', { name: 'Tobi' }, function(err, html){
+            |   // ...
+            | })
 
         h2 app.listen()
 
@@ -189,11 +191,11 @@ div.container
           code Function
           | ) as its callback. If you wish to create both an HTTP and HTTPS server you may do so with the "http" and "https" modules as shown here.
 
-        code
-          | var http = require('http')
-          |   , https = require('https')
-          |   , express = require('express')
-          |   , app = express();
-          |
-          | http.createServer(app).listen(80);
-          | http.createServer({ ... }, app).listen(443);
+        pre
+          code var http = require('http')
+            |   , https = require('https')
+            |   , express = require('express')
+            |   , app = express();
+            |
+            | http.createServer(app).listen(80);
+            | http.createServer({ ... }, app).listen(443);
