@@ -40,15 +40,15 @@ div.container
 
         h2 app.param()
 
-        p Map the given param placeholder 
+        p 将指定的占位标识符
           code name
-          | (s) to the given callback(s).
+          |  映射到指定的回调函数。
 
-        p Parameter mapping is used to provide pre-conditions to routes which use normalized placeholders. For example a 
+        p Parameter mapping is used to provide pre-conditions to routes which use normalized placeholders. 例如使用 
           em :user_id
-          | parameter could automatically load a user's information from the database without any additional code,
+          | 参数将自动从数据库中加载一个用户的信息，而不适用任何附加代码 could automatically load a user's information from the database without any additional code,
 
-        p The callback uses the samesignature as middleware, the only differencing being that the value of the placeholder is passed, in this case the id of the user. Once the 
+        p The callback uses the same signature as middleware, the only differencing being that the value of the placeholder is passed, in this case the id of the user. Once the 
           code next()
           | function is invoked, just like middleware it will continue on to execute the route, or subsequent parameter functions.
 
@@ -143,9 +143,9 @@ div.container
             |   // executed for stage and production
             | });
 
-        p ## Note
+        p ## 提示
 
-        p These callbacks are invoked immediately, and are effectively sugar for the following.
+        p 这些回调函数These callbacks are invoked immediately, and are effectively sugar for the following.
 
         pre
           code var env = process.env.NODE_ENV || 'development';
@@ -170,13 +170,13 @@ div.container
 
         h2 app.render()
 
-        p Render the given view 
-          code name 
+        p 渲染给定的视图 
+          code name （视图名）
           | name with 
-          code options
-          | and a callback accepting an error and the rendered template string.
+          code options {配置参数}
+          | 以及一个回调函数，包含两个参数：错误，模板渲染结果字符串。
 
-        p ## Example
+        p ## 例子
 
         pre
           code app.render('email', { name: 'Tobi' }, function(err, html){
@@ -185,13 +185,13 @@ div.container
 
         h2 app.listen()
 
-        p Listen for connections.
+        p 监听连接端口。
 
-        p A node 
+        p 返回一个 node 
           code http.Server
-          | is returned, with this application (which is a
+          | 对象，is returned, with this application (which is a
           code Function
-          | ) as its callback. If you wish to create both an HTTP and HTTPS server you may do so with the "http" and "https" modules as shown here.
+          | ) as its callback. 如果你希望创建的服务器既支持 HTTP 也支持 HTTPS，你需要向下面的例子一样加载 "http" 和 "https" 模块。
 
         pre
           code var http = require('http')
