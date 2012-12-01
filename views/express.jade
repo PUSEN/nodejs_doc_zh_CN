@@ -6,30 +6,30 @@ header#overview.subhead
 div.container
   div.row
     include express_menu
-    div.span10
+    div.span9
       section#application
         .page-header
           h1 application
 
-        h2 app
+        h2#app app
 
         p Application 原型.
 
-        h2 app.use()
+        h2#app_use app.use()
 
-        p 代理
-          code connect#use() 
+        p 代理 
+          code connect#use()
           |  对加载的应用程序进行设置。
 
-        h2 app.engine()
+        h2#app_engine app.engine()
 
         p 对给定模板引擎注册回调函数。例如EJS 模板引擎默认只处理“.ejs”文件，如果你还希望它能够处理“.html”文件，你可以利用以下代码进行设置。
 
         pre
           code app.engine('html', require('ejs').renderFile);
 
-        p 在这个例子中，EJS 提供了一个 Express 所需要的方法
-          code .renderFile() 
+        p 在这个例子中，EJS 提供了一个 Express 所需要的方法 
+          code .renderFile()
           | ，具有 
           code (path, options, callback)
           |  三个参数。
@@ -38,7 +38,7 @@ div.container
           a(href="/consolidate") Consolidate.js 
           |  库可以解决这类问题，它对 node 主流的模板引擎进行映射，以便使它们可以和 Express 无缝的协同工作。
 
-        h2 app.param()
+        h2#app_param app.param()
 
         p Map the given param placeholder 
           code name
@@ -66,7 +66,7 @@ div.container
             |   });
             | });
 
-        h2 app.set()
+        h2#app_set app.set()
 
         p Assign 
           code setting 
@@ -84,7 +84,7 @@ div.container
 
         p Mounted servers inherit their parent server's settings.
         
-        h2 app.enabled()
+        h2#app_enabled app.enabled()
 
         p Check if 
           code setting
@@ -98,7 +98,7 @@ div.container
             | app.enabled('foo')
             | // => true
 
-        h2 app.disabled()
+        h2#app_disabled app.disabled()
 
         p Check if setting is disabled.
 
@@ -110,19 +110,19 @@ div.container
             | app.disabled('foo')
             | // => false
 
-        h2 app.enable()
+        h2#app_enable app.enable()
 
         p Enable 
           code setting
           | .
 
-        h2 app.disable()
+        h2#app_disable app.disable()
 
         p Disable 
           code setting
           | .
         
-        h2 app.configure()
+        h2#app_configure app.configure()
 
         p Configure callback for zero or more 
           code envs
@@ -162,13 +162,13 @@ div.container
             |     break;
             | }
 
-        h2 app.all()
+        h2#app_all app.all()
 
         p Special-cased "all" method, applying the given route 
           code path
           | , middleware, and callback to every HTTP method.
 
-        h2 app.render()
+        h2#app_render app.render()
 
         p Render the given view 
           code name 
@@ -183,7 +183,7 @@ div.container
             |   // ...
             | })
 
-        h2 app.listen()
+        h2#app_listen app.listen()
 
         p Listen for connections.
 
